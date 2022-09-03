@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="mini-history">
+            <input type="text" class="history-box" readonly>
+        </div>
+        <div class="result">
+            <input type="text" name="resultbox" id="resultbox" readonly>
+        </div>
+        <div class="numbers">
+            <div class="num row-1">
+                <button class="btn number">7</button>
+                <button class="btn number">8</button>
+                <button class="btn number">9</button>
+            </div>
+            <div class="num row-2">
+                <button class="btn number">4</button>
+                <button class="btn number">5</button>
+                <button class="btn number">6</button>
+            </div>
+            <div class="num row-3">
+                <button class="btn number">1</button>
+                <button class="btn number">2</button>
+                <button class="btn number">3</button>
+            </div>
+            <div class="num row-4">
+                <button class="btn number">0</button>
+                <button class="btn number">.</button>
+                <button class="btn equals">=</button>
+            </div>
+        </div>
+        <div class="operation-container">
+            <div class="operation-1">
+                <button class="btn operation operation-plus">+</button>
+                <button class="btn operation operation-minus">- </button>
+                <button class="btn operation operation-multiply">*</button>
+            </div>
+            <div class="operation-2">
+                <button class="btn operation operation-divide">/</button>
+                <button class="btn delete-btn operation-delete">Del</button>
+                <button class="btn cancel-btn  operation-clear">C</button>
+            </div>
+        </div>
+    </div>
+</body>
+    <script src="app.js"></script>
+</html>
